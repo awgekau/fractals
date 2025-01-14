@@ -1,25 +1,3 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/kNy9pn-E)
-# Lab 3 - Functions sharing/calling/recursion
-
-This lab is due on **Sunday October 6, 2024 at 23:59 MDT**.
-
-Submit what you have to GitHub classroom by pushing to your assignment repository.
-
-Note that GitHub Classroom's due date is in UTC time zone, not MDT.
-
-**New policy: you may not import any external libraries other than what is supplied in the provided header file**
-
-## Introduction
-Having gotten bored of your corporate job, you join a university research team, where you will create programs to visualize beautiful fractals.
-Your task for this lab is to plot the Mandelbrot set or the Julia set (depending on the input) by mapping an image to a complex plane and using the PPM format to produce an image.
-
-## Background
-### Complex numbers
-Some of you may have learned about complex numbers before. If not, don't worry, they're simple to understand and we will provide you with everything you need to know about them for this lab.
-
-The complex numbers $\mathbb{C}$, are an extension of the real numbers $\mathbb{R}$. A complex number $z\in\mathbb{C}$ is written as $z=a+ib$ where $a$ is the _real_ portion of $z$, denoted $a=Re(z)$, $b$ is the _imaginary_ portion of $z$, denoted $Im(z)$, and $i$ is the complex number satisfying $i=\sqrt{-1}$.
-
-Complex numbers can be easily plotted on a plane called the _complex plane_ where the horizontal axis corresponds to the real component, and the vertical axis corresponds to the imaginary component. Any complex number can be plotted this way.
 
 Relevant to this lab, we provide you with the following operations:
 - **Addition**: $(a+ib)+(c+id)=(a+c)+i(b+d)$
